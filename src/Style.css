@@ -1,0 +1,50 @@
+/* Overall style */
+.root {
+    -fx-background-color: #f4f4f9;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+/* Label style */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+}
+
+/* TextField style */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 250px;
+    -fx-padding: 5;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-focus-color: #5a9;
+}
+
+/* Button style */
+.button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 250px;
+    -fx-background-color: #A452DA;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #388e3c;
+}
+
+/* VBox container styling */
+.vbox {
+    -fx-spacing: 10;
+}
